@@ -1,7 +1,7 @@
 # bash-social-network-OS
 Social Media System 
  
--- Introduction: 
+## Introduction: 
 This project enlightens about the functioning of a social media application. Implementing such a system 
 gave more exposure to Operating Systems concepts and power of scripting commands. It indulges
 concepts such as use of variables, inter process communication, error handling etc. It covers the
