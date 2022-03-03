@@ -1,6 +1,5 @@
-# bash-social-network-OS
-Social Media System 
- 
+# Social Media System 
+
 ## Introduction: 
 This project enlightens about the functioning of a social media application. Implementing such a system 
 gave more exposure to Operating Systems concepts and power of scripting commands. It indulges
@@ -8,8 +7,7 @@ concepts such as use of variables, inter process communication, error handling e
 knowledge of bash conditions, arguments passing string slicing and semaphores. This project is strongly
 emphasizing on server client communication where request like create, add, post, show drive the
 execution of pieces of scripts on server side. 
-
-Requirement: 
+## Requirement: 
 The initial requirement for the system is that there must include a server and a client to interact with 
 one another. This being a social media system one must expect a userID, friends, wall and comments.
 This system basically allows a user to create their id’s account also make friends and post on their wall.
@@ -20,7 +18,7 @@ end up having a concurrency state. To avoid that a lock could be implemented so 
 or accessed simultaneously. The client script must every time check the given list of parameters to the
 script and an id passed to the server side with correct arguments. If the arguments passed do not match
 the input condition the case statement will not work and show an error message. 
-System architecture: 
+## System architecture: 
 The diagram below shows the functioning of this system  
 
 Starting with the create script, this will first check if entered arguments are equal to 1 or not. If more or 
@@ -86,7 +84,7 @@ response flow through the pipe in a fifo manner there might occur an issue of co
 avoid the blockage in execution a minute sleep time is introduced between every transfer process. To
 print all the results on the client’s terminal those outcomes are redirected to outpipe and echo. Finally,
 when all the execution is completed it releases exit 0 which stands for no error and breaks the loop. 
-Overcoming challenges: 
+## Overcoming challenges: 
 While initiating the project visualizing what is expected out of this idea and how to frame logical 
 questions for understanding the approach took considerable time. But the strategy to complete the task
 stage by stage helped to know the ask of this project. Linux syntax being fresh to our knowledge
@@ -97,7 +95,7 @@ find which shell script to be run. Exploring about executing a shell script into
 to use the read -p command which allows to read the variables all together. The -p stands for printing
 the prompt before read without new line. After reading executing them using the exec command with
 appropriate syntax to keep the server running continuously till its shutdown on request.  
-Conclusion: 
+## Conclusion: 
 This project overall taught to identify the optimum utility of basic commands in Linux which helped in 
 creating a social media model. There are various methods to fight against a problem which defines the
 complexity of error handling one can implement in their code. Shared resources and process
